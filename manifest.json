@@ -1,0 +1,18 @@
+{
+  "name": "AppTracker",
+  "version": "0.0.1",
+  "description": "Add info to Google Sheets to track job applications",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "oauth2": {
+    "client_id": "726558167504-ie7pvfej4rptiblthcnt5k4mlh3u16ac.apps.googleusercontent.com",
+    "scopes": ["https://www.googleapis.com/auth/spreadsheets"]
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgz3O+gkacZUzUsvuoLdCAEDyNjwdD7ly10By3ghGTHL64bww2mYyMCncsvsIwSj/yvEykIfRaSZVdMKzWO0eXguFy7zEE9IepnGG1l2V58iZDd3ErEBBpWU6SsMPl20x4NGMm3WDwCnWcePKNtjSLbj5nRQB66ylxiC7cWHBTSkLLKNqwyD4AHNqRY22HS4O78lvVdfW38eQJs8wjukHnHHDk+I6+F3zGW4/6CgE4EjYntTLm2zNv9N7nm6wbLqdkysqFx2qs0uCYkOWxrklTIz0K7KlRn3wpfNJIHiZJFe8xhPfUQkEvtSlKGvxweVc5JAevSbNtLQL3AM1qmJI2QIDAQAB",
+  "permissions": ["identity"]
+}
